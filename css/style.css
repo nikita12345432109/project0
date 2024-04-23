@@ -1,0 +1,155 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgb(36, 36, 44);
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.781);
+}
+
+span{
+    font-size: 15px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.nav{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+}
+
+.nav__items {
+    margin: 10px 0 10px 10px;
+}
+
+.nav__item-link{
+    width: 280px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav__items :hover{
+    background-color:rgb(64, 64, 77) ;
+}
+
+.nav__item-link {
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.top{
+    margin-bottom: 100px;
+}
+
+.top__title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top__text{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.threeslide{
+    margin-bottom: 100px;
+}
+
+.threeslide__inner{
+    padding: 10px 0 10px 20px;
+}
+
+.threeslide__top{
+    margin-bottom: 30px;
+}
+
+.numeration{
+    list-style-type: decimal;
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.threeslide__bottom-numer{
+    padding: 5px;
+}
+
+.four{
+    margin-bottom: 100px;
+}
+
+.four__inner{
+    padding: 10px;
+}
+
+.four__top-title{
+    max-width: 170px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.four__bottom-title{
+    max-width: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.four__top>.four__text{
+    margin-bottom: 50px;
+}
+
+.sites{
+    margin-bottom: 100px;
+}
+
+.sites-img{
+    width: 100%;
+}
+
+.technology{
+    margin-bottom: 100px;
+}
+
+.technology-img{
+    width: 100%;
+}
+
+
+
+
+
